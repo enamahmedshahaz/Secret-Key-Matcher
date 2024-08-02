@@ -14,8 +14,8 @@
     <div class="main-container">
 
         <div class="generate-section">
-            <button onclick="generateHandler" id="btn-generate" class="btn-primary btn-generate">Generate <br> Secret Key</button>
-            <input class="number-box number-box-generate" type="text" value="******">
+            <button onclick="generateBtnHandler()" id="btn-generate" class="btn-primary btn-generate">Generate <br> Secret Key</button>
+            <input id="pass-gen-field" class="number-box number-box-generate" type="text" value="******">
         </div>
 
         <div class="input-match-section">
@@ -24,7 +24,7 @@
                 <input class="number-box" type="text">
             </div>
 
-            <div class="btn-container">
+            <div onclick="inputBtnHandler(event)" class="btn-container">
 
                 <div>
                     <button class="btn-primary">1</button>
