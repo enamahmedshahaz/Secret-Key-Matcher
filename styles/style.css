@@ -10,6 +10,7 @@
     padding: 15px 40px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .btn-generate {
@@ -86,4 +87,12 @@
     flex-direction: column;
     align-items: start;
     gap: 10px;
+}
+
+.result-right {
+    color: rgb(111, 247, 111);
+}
+
+.result-wrong {
+    color: red;
 }

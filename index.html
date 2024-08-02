@@ -14,7 +14,8 @@
     <div class="main-container">
 
         <div class="generate-section">
-            <button onclick="generateBtnHandler()" id="btn-generate" class="btn-primary btn-generate">Generate <br> Secret Key</button>
+            <button onclick="generateBtnHandler()" id="btn-generate" class="btn-primary btn-generate">Generate <br>
+                Secret Key</button>
             <input id="pass-gen-field" class="number-box number-box-generate" type="text" value="******">
         </div>
 
@@ -43,15 +44,15 @@
                 <div>
                     <button class="btn-primary">9</button>
                     <button class="btn-primary">0</button>
-                    <button onclick="btnDeleteHandler()" class="btn-primary btn-delete">X</button>
-                    <button class="btn-primary btn-submit">Submit</button>
+                    <button onclick="btnDeleteHandler(event)" class="btn-primary btn-delete">X</button>
+                    <button onclick="btnSubmitHandler(event)" class="btn-primary btn-submit">Submit</button>
                 </div>
 
-                <button onclick="btnClearHandler()" class="btn-primary btn-clear">Clear</button>
+                <button onclick="btnClearHandler(event)" class="btn-primary btn-clear">Clear</button>
 
             </div>
             <div>
-                <p></p>
+                <p id="result-text"></p>
             </div>
         </div>
     </div>
