@@ -40,3 +40,18 @@ function showNumberToInputField(pressedNumber) {
         enteredPassword = inputField.getAttribute('value');
     }
 }
+
+
+function btnDeleteHandler(){
+    let newPass = enteredPassword.substring(0, enteredPassword.length - 1); // removes the last character from the password
+    enteredPassword = newPass;
+    const inputField = document.getElementById('pass-input-field');
+    inputField.setAttribute('value', enteredPassword);
+
+}
+
+function btnClearHandler(){
+    enteredPassword='';
+    const inputField = document.getElementById('pass-input-field');
+    inputField.setAttribute('value', enteredPassword);
+}
