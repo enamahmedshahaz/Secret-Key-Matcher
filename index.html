@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Secret Key Matcher</title>
     <link rel="stylesheet" href="/styles/style.css">
+    <script src="/scripts/script.js"></script>
 </head>
+
 <body>
-    
+
+    <div class="main-container">
+
+        <div class="generate-section">
+            <button onclick="generateHandler" id="btn-generate" class="btn-primary btn-generate">Generate <br> Secret Key</button>
+            <input class="number-box number-box-generate" type="text" value="******">
+        </div>
+
+        <div class="input-match-section">
+            <div>
+                <h2 class="text-primary">Enter PIN: </h2>
+                <input class="number-box" type="text">
+            </div>
+
+            <div class="btn-container">
+
+                <div>
+                    <button class="btn-primary">1</button>
+                    <button class="btn-primary">2</button>
+                    <button class="btn-primary">3</button>
+                    <button class="btn-primary">4</button>
+                </div>
+
+                <div>
+                    <button class="btn-primary">5</button>
+                    <button class="btn-primary">6</button>
+                    <button class="btn-primary">7</button>
+                    <button class="btn-primary">8</button>
+                </div>
+
+                <div>
+                    <button class="btn-primary">9</button>
+                    <button class="btn-primary">0</button>
+                    <button class="btn-primary btn-delete">X</button>
+                    <button class="btn-primary btn-submit">Submit</button>
+                </div>
+
+                <button class="btn-primary btn-clear">Clear</button>
+
+            </div>
+            <div>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <hr>
+        <p> <small> &copy; Enam Ahmed Shahaz. All rights reserved.</small> </p>
+    </footer>
+
 </body>
+
 </html>

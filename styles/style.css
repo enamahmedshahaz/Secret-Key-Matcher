@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn-primary {
+    background-color: #333333;
+    color: white;
+    font-size: 20px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-generate {
+    background-color: #007bff;
+    margin-bottom: 20px;
+}
+
+.btn-clear {
+    background-color: #f0ad4e;
+    padding: 15px 22px;
+
+}
+
+.btn-delete {
+    background-color: #d9534f;
+}
+
+.btn-submit {
+    background-color: #5cb85c;
+    padding: 15px 15px;
+}
+
+.number-box {
+    background-color: #333333;
+    border-radius: 5px;
+    border: 10px;
+    border-color: white;
+    padding: 10px 10px;
+    font-size: 40px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+
+.generate-section {
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input-match-section {
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.text-primary {
+    color: white;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
