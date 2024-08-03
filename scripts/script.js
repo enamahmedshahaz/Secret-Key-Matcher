@@ -1,3 +1,5 @@
+// Author: Enam Ahmed Shahaz
+
 let generatedPassword = '*';
 let enteredPassword = '';
 

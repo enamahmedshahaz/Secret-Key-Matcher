@@ -1,3 +1,5 @@
+/* Author: Enam Ahmed Shahaz */
+
 * {
     margin: 0px;
     padding: 5px;
@@ -101,11 +103,11 @@ footer hr {
     border-top: 1px solid rgb(225, 220, 210);
 }
 
-footer p {
+/* footer p {
     font-size: 10px;
     margin-top: 5px;
     color: darkgrey;
-}
+} */
 
 .text-primary {
     margin-bottom: 20px;
