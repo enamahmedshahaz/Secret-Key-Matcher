@@ -1,28 +1,28 @@
 * {
     margin: 0px;
-    padding: 0px;
+    padding: 5px;
 }
 
 .btn-primary {
     background-color: #333333;
     color: white;
     font-size: 20px;
-    padding: 15px 40px;
+    height: 55px;
+    width: 100px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-right: 3px;
 }
 
 .btn-generate {
+    width: 180px;
+    height: 75px;
     background-color: #007bff;
     margin-bottom: 20px;
 }
 
 .btn-clear {
     background-color: #f0ad4e;
-    padding: 15px 22px;
-
 }
 
 .btn-delete {
@@ -31,7 +31,6 @@
 
 .btn-submit {
     background-color: #5cb85c;
-    padding: 15px 15px;
 }
 
 .number-box {
@@ -39,43 +38,38 @@
     border-radius: 5px;
     border: 10px;
     border-color: white;
-    padding: 10px 10px;
     font-size: 40px;
     color: white;
-    width: 200px;
-    height: 50px;
+    width: 180px;
+    height: 60px;
     text-align: center;
 }
 
 
 .generate-section {
     background-color: black;
-    height: 500px;
-    width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    border-radius: 8px 0px 0px 8px;
 }
 
 .input-match-section {
     background-color: black;
-    height: 500px;
-    width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    border-radius: 0px 8px 8px 0px;
 
 }
 
 .main-container {
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
 }
 
 .text-primary {
@@ -87,7 +81,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 10px;
-    row-gap: 15px;
+    row-gap: 10px;
 }
 
 .result-right {
@@ -112,19 +106,41 @@ footer p {
     font-size: 10px;
     margin-top: 5px;
     color: darkgrey;
-    margin-bottom: 10px;
+}
+
+.text-primary {
+    margin-bottom: 20px;
 }
 
 /* css rules for small screen devices */
-
 @media screen and (max-width: 600px) {
 
     .main-container {
-        flex-direction: column;
+        /* flex-direction: column; */
+        grid-template-columns: 1fr;
+        row-gap: 5px;
     }
-    
+
     .btn-container {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .generate-section {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .input-match-section {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .generate-section {
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    .input-match-section {
+        border-radius: 0px 0px 8px 8px;
     }
 
 }
