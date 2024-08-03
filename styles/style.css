@@ -45,7 +45,6 @@
     text-align: center;
 }
 
-
 .generate-section {
     background-color: black;
     display: flex;
@@ -60,9 +59,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
     border-radius: 0px 8px 8px 0px;
-
 }
 
 .main-container {
@@ -116,7 +115,6 @@ footer p {
 @media screen and (max-width: 600px) {
 
     .main-container {
-        /* flex-direction: column; */
         grid-template-columns: 1fr;
         row-gap: 5px;
     }
@@ -142,5 +140,4 @@ footer p {
     .input-match-section {
         border-radius: 0px 0px 8px 8px;
     }
-
 }
